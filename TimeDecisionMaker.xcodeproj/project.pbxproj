@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		748F59A42270681B00B88B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A32270681B00B88B7D /* AppDelegate.swift */; };
-		748F59A62270681B00B88B7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A52270681B00B88B7D /* ViewController.swift */; };
+		748F59A62270681B00B88B7D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A52270681B00B88B7D /* MainViewController.swift */; };
 		748F59A92270681B00B88B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748F59A72270681B00B88B7D /* Main.storyboard */; };
 		748F59AB2270681D00B88B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748F59AA2270681D00B88B7D /* Assets.xcassets */; };
 		748F59AE2270681D00B88B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748F59AC2270681D00B88B7D /* LaunchScreen.storyboard */; };
@@ -19,6 +19,14 @@
 		748F59CB22706C6600B88B7D /* A.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59C922706C6600B88B7D /* A.ics */; };
 		748F59CE22706EB300B88B7D /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59CD22706EB300B88B7D /* B.ics */; };
 		748F59CF22706EB300B88B7D /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59CD22706EB300B88B7D /* B.ics */; };
+		A5464E832291C0BF008A36B0 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5464E822291C0BF008A36B0 /* StringExtensions.swift */; };
+		A5464E852291C1D5008A36B0 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5464E842291C1D5008A36B0 /* DateExtensions.swift */; };
+		A5464E872291E82C008A36B0 /* DayCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5464E862291E82C008A36B0 /* DayCollectionCell.swift */; };
+		A5464EB12295D33D008A36B0 /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5464EB02295D33D008A36B0 /* CalendarFlowLayout.swift */; };
+		A59E24C22284B3B9000779EE /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59E24C12284B3B9000779EE /* Appointment.swift */; };
+		A59E24C42284B6AF000779EE /* AppointmentWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59E24C32284B6AF000779EE /* AppointmentWorker.swift */; };
+		A5BE861B22A28D6F007F9B68 /* TimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE861A22A28D6E007F9B68 /* TimeIntervalExtensions.swift */; };
+		A5FE93FE22A15A2A00D9DBB1 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FE93FD22A15A2A00D9DBB1 /* AppointmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +42,7 @@
 /* Begin PBXFileReference section */
 		748F59A02270681B00B88B7D /* TimeDecisionMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeDecisionMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748F59A32270681B00B88B7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		748F59A52270681B00B88B7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		748F59A52270681B00B88B7D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		748F59A82270681B00B88B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		748F59AA2270681D00B88B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748F59AD2270681D00B88B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,6 +53,14 @@
 		748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDTimeDecisionMaker.swift; sourceTree = "<group>"; };
 		748F59C922706C6600B88B7D /* A.ics */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = A.ics; sourceTree = "<group>"; };
 		748F59CD22706EB300B88B7D /* B.ics */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = B.ics; sourceTree = "<group>"; };
+		A5464E822291C0BF008A36B0 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		A5464E842291C1D5008A36B0 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		A5464E862291E82C008A36B0 /* DayCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionCell.swift; sourceTree = "<group>"; };
+		A5464EB02295D33D008A36B0 /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFlowLayout.swift; sourceTree = "<group>"; };
+		A59E24C12284B3B9000779EE /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		A59E24C32284B6AF000779EE /* AppointmentWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentWorker.swift; sourceTree = "<group>"; };
+		A5BE861A22A28D6E007F9B68 /* TimeIntervalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtensions.swift; sourceTree = "<group>"; };
+		A5FE93FD22A15A2A00D9DBB1 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +102,15 @@
 		748F59A22270681B00B88B7D /* TimeDecisionMaker */ = {
 			isa = PBXGroup;
 			children = (
+				A5464E812291C078008A36B0 /* Extensions */,
+				A59E24C02284B3AB000779EE /* Model */,
 				748F59CC22706E9400B88B7D /* Appointments */,
 				748F59A32270681B00B88B7D /* AppDelegate.swift */,
 				748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */,
 				748F59C42270685A00B88B7D /* ViewControllers */,
 				748F59C32270684E00B88B7D /* Storyboards */,
 				748F59C52270686400B88B7D /* Resources */,
+				A59E24C32284B6AF000779EE /* AppointmentWorker.swift */,
 			);
 			path = TimeDecisionMaker;
 			sourceTree = "<group>";
@@ -117,7 +136,10 @@
 		748F59C42270685A00B88B7D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				748F59A52270681B00B88B7D /* ViewController.swift */,
+				748F59A52270681B00B88B7D /* MainViewController.swift */,
+				A5464E862291E82C008A36B0 /* DayCollectionCell.swift */,
+				A5FE93FD22A15A2A00D9DBB1 /* AppointmentViewController.swift */,
+				A5464EB02295D33D008A36B0 /* CalendarFlowLayout.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -138,6 +160,24 @@
 				748F59CD22706EB300B88B7D /* B.ics */,
 			);
 			path = Appointments;
+			sourceTree = "<group>";
+		};
+		A5464E812291C078008A36B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5464E822291C0BF008A36B0 /* StringExtensions.swift */,
+				A5464E842291C1D5008A36B0 /* DateExtensions.swift */,
+				A5BE861A22A28D6E007F9B68 /* TimeIntervalExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A59E24C02284B3AB000779EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A59E24C12284B3B9000779EE /* Appointment.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,9 +284,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5464EB12295D33D008A36B0 /* CalendarFlowLayout.swift in Sources */,
+				A5464E852291C1D5008A36B0 /* DateExtensions.swift in Sources */,
+				A5464E832291C0BF008A36B0 /* StringExtensions.swift in Sources */,
 				748F59C72270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */,
-				748F59A62270681B00B88B7D /* ViewController.swift in Sources */,
+				748F59A62270681B00B88B7D /* MainViewController.swift in Sources */,
+				A5464E872291E82C008A36B0 /* DayCollectionCell.swift in Sources */,
 				748F59A42270681B00B88B7D /* AppDelegate.swift in Sources */,
+				A59E24C42284B6AF000779EE /* AppointmentWorker.swift in Sources */,
+				A5BE861B22A28D6F007F9B68 /* TimeIntervalExtensions.swift in Sources */,
+				A5FE93FE22A15A2A00D9DBB1 /* AppointmentViewController.swift in Sources */,
+				A59E24C22284B3B9000779EE /* Appointment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -395,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -410,14 +458,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNFZXL4ATZ;
 				INFOPLIST_FILE = TimeDecisionMaker/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMaker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leprechaunspot.tdm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -427,14 +476,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNFZXL4ATZ;
 				INFOPLIST_FILE = TimeDecisionMaker/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMaker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leprechaunspot.tdm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -453,7 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMakerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeDecisionMaker.app/TimeDecisionMaker";
 			};
@@ -473,7 +523,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMakerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeDecisionMaker.app/TimeDecisionMaker";
 			};
