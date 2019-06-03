@@ -62,7 +62,6 @@ class AppointmentViewController: UITableViewController {
     }
     
     func prepareCollaborationSlots() {
-        print("CS: \(collaborationSlots.count) slots, first is \(collaborationSlots.first?.duration)")
         if collaborationSlots.count == 0 {
             let alert = UIAlertController(title: "No free slots", message: "There are no free slots in the nearest future.", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
